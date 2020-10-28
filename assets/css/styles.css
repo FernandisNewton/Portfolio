@@ -223,7 +223,7 @@ img{
   right: 0;
   bottom:  0;
   right: 0;
-  width: 400px;
+  width: 200px;
 
    
 }
@@ -323,6 +323,11 @@ img{
 }
 
 /* ===== WORK =====*/
+.work{
+  display: flex;
+  flex-direction: column;
+  
+}
 .work__container{
   row-gap: 2rem;
   
@@ -330,8 +335,8 @@ img{
 }
  
 .card {
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   min-width: 250px;
   padding: 1.5rem;
   border-radius: 16px;
